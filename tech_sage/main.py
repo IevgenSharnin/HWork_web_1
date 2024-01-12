@@ -286,6 +286,7 @@ class PrintTable (ABC):
 #        self.table_for_print = table_rows_for_add
         self.console = Console ()
         self.key = key
+        self.table = Table()
 
     def add_row (self, *args):
         self.table.add_row (*args)
